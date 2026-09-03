@@ -1,5 +1,6 @@
 import GamePlugin from '@plugin/GamePlugin'
 
+import { isNumber } from '@utils/validation'
 
 const tourItem = 428
 const tourPostcard = 126
@@ -21,6 +22,8 @@ export default class Item extends GamePlugin {
     }
 
     updatePlayer(args, user) {
+        if (!isNumber(args.item)) return
+
         const item = this.items[args.item]
 
         if (!item || item.type === 10 || !user.inventory.includes(args.item)) {
