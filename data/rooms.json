@@ -1,5 +1,37 @@
 [
     {
+        "id": 1,
+        "name": "welcome",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 2,
+        "name": "tourhq",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 3,
+        "name": "lookout",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 4,
+        "name": "icepond",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
         "id": 100,
         "name": "town",
         "member": 0,
@@ -40,8 +72,40 @@
         "spawn": 0
     },
     {
+        "id": 122,
+        "name": "eco",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
         "id": 130,
         "name": "shop",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 131,
+        "name": "shopoffice",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 140,
+        "name": "coffee_solo",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 141,
+        "name": "pizza_solo",
         "member": 0,
         "maxUsers": 80,
         "game": 0,
@@ -120,12 +184,140 @@
         "spawn": 0
     },
     {
+        "id": 322,
+        "name": "dojohide",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 323,
+        "name": "commandroom",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 330,
+        "name": "pizza",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 340,
+        "name": "stage",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
         "id": 400,
         "name": "beach",
         "member": 0,
         "maxUsers": 80,
         "game": 0,
         "spawn": 1
+    },
+    {
+        "id": 410,
+        "name": "lighthouse",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 411,
+        "name": "beacon",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 500,
+        "name": "commandroommay",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 501,
+        "name": "mtn1",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 502,
+        "name": "mtn2",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 503,
+        "name": "mtn3",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 504,
+        "name": "mtn4",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 505,
+        "name": "icecave",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 506,
+        "name": "maze1",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 507,
+        "name": "maze2",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 508,
+        "name": "maze3",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 509,
+        "name": "herberthq",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
     },
     {
         "id": 800,
@@ -160,6 +352,14 @@
         "spawn": 0
     },
     {
+        "id": 804,
+        "name": "boiler",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
         "id": 805,
         "name": "berg",
         "member": 0,
@@ -184,6 +384,14 @@
         "spawn": 0
     },
     {
+        "id": 808,
+        "name": "mine",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
         "id": 809,
         "name": "forest",
         "member": 0,
@@ -194,6 +402,102 @@
     {
         "id": 810,
         "name": "cove",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 811,
+        "name": "boxdimension",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 812,
+        "name": "dojofire",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 813,
+        "name": "cavemine",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 814,
+        "name": "hiddenlake",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 815,
+        "name": "underwater",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 821,
+        "name": "oldboiler",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 830,
+        "name": "partytower",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 832,
+        "name": "partytowerbreak",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 835,
+        "name": "partytowerext",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 836,
+        "name": "partytowersecret",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 837,
+        "name": "toptower",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 890,
+        "name": "pufflepark",
         "member": 0,
         "maxUsers": 80,
         "game": 0,
@@ -373,6 +677,22 @@
         "member": 0,
         "maxUsers": 80,
         "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 1001,
+        "name": "playerbackyard",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 8100,
+        "name": "darkcave",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 0,
         "spawn": 0
     }
 ]
