@@ -135,20 +135,20 @@ export default class Chat extends GamePlugin {
     }
 
     addItem(args, user) {
-        if (user.isModerator) {
-            this.plugins.item.addItem({ item: args[0] }, user)
+        if (user.isModerator && args[0]) {
+            this.plugins.item.addItem({ item: parseInt(args[0]) }, user)
         }
     }
 
     addFurniture(args, user) {
-        if (user.isModerator) {
-            this.plugins.igloo.addFurniture({ furniture: args[0] }, user)
+        if (user.isModerator && args[0]) {
+            this.plugins.igloo.addFurniture({ furniture: parseInt(args[0]) }, user)
         }
     }
 
     addCoins(args, user) {
-        if (user.isModerator) {
-            user.updateCoins(args[0], true)
+        if (user.isModerator && args[0]) {
+            user.updateCoins(parseInt(args[0]), true)
         }
     }
 
