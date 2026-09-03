@@ -28,6 +28,7 @@ export default class Mail extends GamePlugin {
     sendMail(args, user) {
         if (!hasProps(args, 'recipient', 'postcardId')) return
         if (!isNumber(args.recipient) || !isNumber(args.postcardId)) return
+        if (!(args.postcardId in this.crumbs.postcards)) return
 
         // Insufficient coins
         if (user.coins < this.postcardCost) {
