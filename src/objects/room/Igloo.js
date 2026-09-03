@@ -3,11 +3,12 @@ import Room from './Room'
 
 export default class Igloo extends Room {
 
-    constructor(data, db, iglooIdOffset) {
+    constructor(data, db, iglooIdOffset, rooms) {
         super(data)
 
         this.db = db
         this.iglooIdOffset = iglooIdOffset
+        this.rooms = rooms
 
         this.isIgloo = true
     }
@@ -21,6 +22,14 @@ export default class Igloo extends Room {
 
         user.send('join_igloo', this)
         this.send(user, 'add_player', { user: user })
+    }
+
+    remove(user) {
+        super.remove(user)
+
+        if (Object.keys(this.users).length === 0) {
+            delete this.rooms[this.id]
+        }
     }
 
     refresh(user) {

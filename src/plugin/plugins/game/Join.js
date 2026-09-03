@@ -98,7 +98,7 @@ export default class Join extends GamePlugin {
                 return null
             }
 
-            this.rooms[iglooId] = new Igloo(igloo, this.db, this.config.game.iglooIdOffset)
+            this.rooms[iglooId] = new Igloo(igloo, this.db, this.config.game.iglooIdOffset, this.rooms)
         }
 
         return this.rooms[iglooId]
