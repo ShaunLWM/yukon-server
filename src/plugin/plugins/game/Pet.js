@@ -28,6 +28,7 @@ export default class Pet extends GamePlugin {
 
     adoptPet(args, user) {
         if (!hasProps(args, 'typeId', 'name')) return
+        if (!isNumber(args.typeId)) return
 
         user.pets.add(args.typeId, args.name)
     }
@@ -43,7 +44,8 @@ export default class Pet extends GamePlugin {
     }
 
     petMove(args, user) {
-        if (!hasProps(args, 'x', 'y')) return
+        if (!hasProps(args, 'id', 'x', 'y')) return
+        if (!isNumber(args.id)) return
         if (!isInRange(args.x, 0, 1520)) return
         if (!isInRange(args.y, 0, 960)) return
 
@@ -58,6 +60,7 @@ export default class Pet extends GamePlugin {
     }
 
     petPlay(args, user) {
+        if (!hasProps(args, 'id') || !isNumber(args.id)) return
         if (!user.pets.includes(args.id)) return
         const pet = user.pets.get(args.id)
 
@@ -110,6 +113,7 @@ export default class Pet extends GamePlugin {
     }
 
     petFrame(args, user) {
+        if (!hasProps(args, 'id') || !isNumber(args.id)) return
         if (!user.pets.includes(args.id)) return
         if (!allowedFrames.includes(args.frame)) return
 
@@ -117,6 +121,8 @@ export default class Pet extends GamePlugin {
     }
 
     petStartWalk(args, user) {
+        if (!hasProps(args, 'id') || !isNumber(args.id)) return
+
         user.startWalkingPet(args.id)
     }
 
