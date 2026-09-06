@@ -1,0 +1,1748 @@
+{
+    "290": {
+        "name": "Sensei",
+        "group_id": 6,
+        "rank": 4,
+        "is_member": 0
+    },
+    "33": {
+        "name": "Aunt Arctic",
+        "group_id": 6,
+        "rank": 4,
+        "is_member": 0
+    },
+    "448": {
+        "name": "PH",
+        "group_id": 6,
+        "rank": 1,
+        "is_member": 0
+    },
+    "466": {
+        "name": "Herbert",
+        "group_id": 6,
+        "rank": 4,
+        "is_member": 0
+    },
+    "7": {
+        "name": "Rockhopper",
+        "group_id": 6,
+        "rank": 2,
+        "is_member": 0
+    },
+    "31": {
+        "name": "Cadence",
+        "group_id": 6,
+        "rank": 3,
+        "is_member": 0
+    },
+    "32": {
+        "name": "Franky",
+        "group_id": 6,
+        "rank": 3,
+        "is_member": 0
+    },
+    "34": {
+        "name": "G Billy",
+        "group_id": 6,
+        "rank": 3,
+        "is_member": 0
+    },
+    "35": {
+        "name": "Petey K",
+        "group_id": 6,
+        "rank": 3,
+        "is_member": 0
+    },
+    "36": {
+        "name": "Stompin' Bob",
+        "group_id": 6,
+        "rank": 3,
+        "is_member": 0
+    },
+    "8": {
+        "name": "Gary",
+        "group_id": 6,
+        "rank": 3,
+        "is_member": 0
+    },
+    "358": {
+        "name": "Rookie",
+        "group_id": 6,
+        "rank": 4,
+        "is_member": 0
+    },
+    "500": {
+        "name": "Rory",
+        "group_id": 6,
+        "rank": 2,
+        "is_member": 0
+    },
+    "501": {
+        "name": "Tourdude",
+        "group_id": 6,
+        "rank": 3,
+        "is_member": 0
+    },
+    "502": {
+        "name": "Jet Pack Guy",
+        "group_id": 6,
+        "rank": 4,
+        "is_member": 0
+    },
+    "504": {
+        "name": "Dot",
+        "group_id": 6,
+        "rank": 4,
+        "is_member": 0
+    },
+    "506": {
+        "name": "Klutzy",
+        "group_id": 6,
+        "rank": 4,
+        "is_member": 0
+    },
+    "508": {
+        "name": "DJ Maxx",
+        "group_id": 6,
+        "rank": 4,
+        "is_member": 0
+    },
+    "189": {
+        "name": "Construction",
+        "group_id": 23,
+        "rank": 1,
+        "is_member": 0
+    },
+    "190": {
+        "name": "Explorer",
+        "group_id": 23,
+        "rank": 1,
+        "is_member": 1
+    },
+    "362": {
+        "name": "Go Green",
+        "group_id": 23,
+        "rank": 1,
+        "is_member": 0
+    },
+    "186": {
+        "name": "Celebration",
+        "group_id": 23,
+        "rank": 1,
+        "is_member": 0
+    },
+    "292": {
+        "name": "Out At Sea",
+        "group_id": 23,
+        "rank": 1,
+        "is_member": 0
+    },
+    "193": {
+        "name": "Path Finder",
+        "group_id": 23,
+        "rank": 2,
+        "is_member": 0
+    },
+    "182": {
+        "name": "Happy Room",
+        "group_id": 23,
+        "rank": 2,
+        "is_member": 0
+    },
+    "185": {
+        "name": "Target Champion",
+        "group_id": 23,
+        "rank": 2,
+        "is_member": 0
+    },
+    "330": {
+        "name": "Party Puffle",
+        "group_id": 23,
+        "rank": 0,
+        "is_member": 0
+    },
+    "332": {
+        "name": "Food Fight",
+        "group_id": 23,
+        "rank": 1,
+        "is_member": 0
+    },
+    "187": {
+        "name": "Monster Mash",
+        "group_id": 23,
+        "rank": 2,
+        "is_member": 0
+    },
+    "188": {
+        "name": "Scavenger Hunt",
+        "group_id": 23,
+        "rank": 2,
+        "is_member": 0
+    },
+    "184": {
+        "name": "Snack Shack",
+        "group_id": 23,
+        "rank": 1,
+        "is_member": 0
+    },
+    "440": {
+        "name": "Snowboarder",
+        "group_id": 23,
+        "rank": 1,
+        "is_member": 0
+    },
+    "360": {
+        "name": "Noble Knight",
+        "group_id": 23,
+        "rank": 2,
+        "is_member": 0
+    },
+    "364": {
+        "name": "Tree Mob",
+        "group_id": 23,
+        "rank": 2,
+        "is_member": 0
+    },
+    "426": {
+        "name": "Music Maestro",
+        "group_id": 23,
+        "rank": 2,
+        "is_member": 0
+    },
+    "183": {
+        "name": "Party Puzzle",
+        "group_id": 23,
+        "rank": 2,
+        "is_member": 0
+    },
+    "294": {
+        "name": "Top Volunteer",
+        "group_id": 23,
+        "rank": 3,
+        "is_member": 0
+    },
+    "439": {
+        "name": "Mountaineer",
+        "group_id": 23,
+        "rank": 3,
+        "is_member": 0
+    },
+    "296": {
+        "name": "Epic Volunteer",
+        "group_id": 23,
+        "rank": 4,
+        "is_member": 0
+    },
+    "507": {
+        "name": "Legendary Volunteer",
+        "group_id": 23,
+        "rank": 4,
+        "is_member": 0
+    },
+    "503": {
+        "name": "Ultimate Fan",
+        "group_id": 23,
+        "rank": 4,
+        "is_member": 0
+    },
+    "505": {
+        "name": "Elite Operative",
+        "group_id": 23,
+        "rank": 4,
+        "is_member": 0
+    },
+    "26": {
+        "name": "Berg Drill!",
+        "group_id": 7,
+        "rank": 3,
+        "is_member": 0
+    },
+    "13": {
+        "name": "Clock Target",
+        "group_id": 7,
+        "rank": 1,
+        "is_member": 0
+    },
+    "14": {
+        "name": "183 days! ",
+        "group_id": 7,
+        "rank": 2,
+        "is_member": 0
+    },
+    "18": {
+        "name": "Coffee Server",
+        "group_id": 7,
+        "rank": 2,
+        "is_member": 0
+    },
+    "16": {
+        "name": "Dance Party",
+        "group_id": 7,
+        "rank": 2,
+        "is_member": 0
+    },
+    "20": {
+        "name": "365 days!",
+        "group_id": 7,
+        "rank": 3,
+        "is_member": 0
+    },
+    "22": {
+        "name": "Floor Filler",
+        "group_id": 7,
+        "rank": 3,
+        "is_member": 0
+    },
+    "27": {
+        "name": "Fort Battle",
+        "group_id": 7,
+        "rank": 3,
+        "is_member": 0
+    },
+    "23": {
+        "name": "Full House",
+        "group_id": 7,
+        "rank": 3,
+        "is_member": 1
+    },
+    "24": {
+        "name": "Play It Loud! ",
+        "group_id": 7,
+        "rank": 3,
+        "is_member": 0
+    },
+    "25": {
+        "name": "Soccer Team ",
+        "group_id": 7,
+        "rank": 4,
+        "is_member": 0
+    },
+    "12": {
+        "name": "Go Swimming",
+        "group_id": 7,
+        "rank": 1,
+        "is_member": 0
+    },
+    "15": {
+        "name": "Going Places",
+        "group_id": 7,
+        "rank": 2,
+        "is_member": 0
+    },
+    "29": {
+        "name": "Hockey Team",
+        "group_id": 7,
+        "rank": 3,
+        "is_member": 0
+    },
+    "17": {
+        "name": "Igloo Party",
+        "group_id": 7,
+        "rank": 2,
+        "is_member": 0
+    },
+    "28": {
+        "name": "Party Host ",
+        "group_id": 7,
+        "rank": 4,
+        "is_member": 0
+    },
+    "30": {
+        "name": "Ninja Meeting",
+        "group_id": 7,
+        "rank": 4,
+        "is_member": 0
+    },
+    "19": {
+        "name": "Pizza Waiter",
+        "group_id": 7,
+        "rank": 2,
+        "is_member": 0
+    },
+    "21": {
+        "name": "Puffle Owner",
+        "group_id": 7,
+        "rank": 3,
+        "is_member": 0
+    },
+    "11": {
+        "name": "Snapshot",
+        "group_id": 7,
+        "rank": 1,
+        "is_member": 0
+    },
+    "9": {
+        "name": "Stage Crew",
+        "group_id": 7,
+        "rank": 1,
+        "is_member": 0
+    },
+    "10": {
+        "name": "Underground",
+        "group_id": 7,
+        "rank": 1,
+        "is_member": 0
+    },
+    "496": {
+        "name": "Play Ball!",
+        "group_id": 7,
+        "rank": 3,
+        "is_member": 0
+    },
+    "497": {
+        "name": "Batter Up!",
+        "group_id": 7,
+        "rank": 1,
+        "is_member": 0
+    },
+    "498": {
+        "name": "Home Run!",
+        "group_id": 7,
+        "rank": 2,
+        "is_member": 0
+    },
+    "700": {
+        "name": "Big Brain Moment",
+        "group_id": 7,
+        "rank": 2,
+        "is_member": 0
+    },
+    "701": {
+        "name": "Pizza Time",
+        "group_id": 12,
+        "rank": 1,
+        "is_member": 0
+    },
+    "702": {
+        "name": "Pizza the Profits",
+        "group_id": 12,
+        "rank": 2,
+        "is_member": 0
+    },
+    "703": {
+        "name": "Rolling in Dough",
+        "group_id": 12,
+        "rank": 3,
+        "is_member": 0
+    },
+    "704": {
+        "name": "Morning Rush",
+        "group_id": 12,
+        "rank": 1,
+        "is_member": 0
+    },
+    "705": {
+        "name": "Daily Grind",
+        "group_id": 12,
+        "rank": 2,
+        "is_member": 0
+    },
+    "706": {
+        "name": "Java Genius",
+        "group_id": 12,
+        "rank": 3,
+        "is_member": 0
+    },
+    "707": {
+        "name": "Breaking the Ice",
+        "group_id": 12,
+        "rank": 1,
+        "is_member": 0
+    },
+    "708": {
+        "name": "Can I Get a Tip?",
+        "group_id": 12,
+        "rank": 2,
+        "is_member": 0
+    },
+    "709": {
+        "name": "Big Berg Money",
+        "group_id": 12,
+        "rank": 3,
+        "is_member": 0
+    },
+    "710": {
+        "name": "Wrong Order",
+        "group_id": 12,
+        "rank": 1,
+        "is_member": 0
+    },
+    "711": {
+        "name": "Full Course",
+        "group_id": 12,
+        "rank": 2,
+        "is_member": 0
+    },
+    "712": {
+        "name": "All the Work Hours",
+        "group_id": 12,
+        "rank": 3,
+        "is_member": 0
+    },
+    "713": {
+        "name": "Happy Customers",
+        "group_id": 12,
+        "rank": 4,
+        "is_member": 0
+    },
+    "73": {
+        "name": "Aqua Puffle",
+        "group_id": 13,
+        "rank": 1,
+        "is_member": 0
+    },
+    "80": {
+        "name": "Bubble Catch",
+        "group_id": 13,
+        "rank": 2,
+        "is_member": 0
+    },
+    "84": {
+        "name": "Clam Compress",
+        "group_id": 13,
+        "rank": 3,
+        "is_member": 0
+    },
+    "77": {
+        "name": "Clam Master",
+        "group_id": 13,
+        "rank": 2,
+        "is_member": 0
+    },
+    "86": {
+        "name": "Clam Pressure",
+        "group_id": 13,
+        "rank": 3,
+        "is_member": 0
+    },
+    "75": {
+        "name": "Clam Success",
+        "group_id": 13,
+        "rank": 2,
+        "is_member": 0
+    },
+    "88": {
+        "name": "Clam Timer",
+        "group_id": 13,
+        "rank": 3,
+        "is_member": 0
+    },
+    "82": {
+        "name": "Clam Treasure",
+        "group_id": 13,
+        "rank": 3,
+        "is_member": 0
+    },
+    "91": {
+        "name": "Crab's Treasure",
+        "group_id": 13,
+        "rank": 3,
+        "is_member": 1
+    },
+    "78": {
+        "name": "Get Fluffy",
+        "group_id": 13,
+        "rank": 2,
+        "is_member": 1
+    },
+    "79": {
+        "name": "Get the Worm",
+        "group_id": 13,
+        "rank": 2,
+        "is_member": 1
+    },
+    "92": {
+        "name": "Mullet Capture",
+        "group_id": 13,
+        "rank": 4,
+        "is_member": 1
+    },
+    "81": {
+        "name": "Pearl Capture",
+        "group_id": 13,
+        "rank": 2,
+        "is_member": 0
+    },
+    "85": {
+        "name": "Soda Compress",
+        "group_id": 13,
+        "rank": 3,
+        "is_member": 1
+    },
+    "76": {
+        "name": "Soda Master",
+        "group_id": 13,
+        "rank": 2,
+        "is_member": 1
+    },
+    "87": {
+        "name": "Soda Pressure",
+        "group_id": 13,
+        "rank": 3,
+        "is_member": 1
+    },
+    "74": {
+        "name": "Soda Success",
+        "group_id": 13,
+        "rank": 2,
+        "is_member": 1
+    },
+    "89": {
+        "name": "Soda Timer",
+        "group_id": 13,
+        "rank": 3,
+        "is_member": 1
+    },
+    "83": {
+        "name": "Soda Treasure",
+        "group_id": 13,
+        "rank": 3,
+        "is_member": 1
+    },
+    "72": {
+        "name": "Squid Spotter",
+        "group_id": 13,
+        "rank": 1,
+        "is_member": 0
+    },
+    "55": {
+        "name": "1-up Blast",
+        "group_id": 14,
+        "rank": 2,
+        "is_member": 1
+    },
+    "61": {
+        "name": "Astro 1-up",
+        "group_id": 14,
+        "rank": 3,
+        "is_member": 1
+    },
+    "59": {
+        "name": "Astro Expert",
+        "group_id": 14,
+        "rank": 3,
+        "is_member": 1
+    },
+    "62": {
+        "name": "Astro Master",
+        "group_id": 14,
+        "rank": 4,
+        "is_member": 1
+    },
+    "56": {
+        "name": "Astro Secret",
+        "group_id": 14,
+        "rank": 2,
+        "is_member": 1
+    },
+    "57": {
+        "name": "Astro10 Max",
+        "group_id": 14,
+        "rank": 2,
+        "is_member": 1
+    },
+    "58": {
+        "name": "Astro20 Max",
+        "group_id": 14,
+        "rank": 2,
+        "is_member": 1
+    },
+    "60": {
+        "name": "Astro30 Max",
+        "group_id": 14,
+        "rank": 3,
+        "is_member": 1
+    },
+    "51": {
+        "name": "Astro5",
+        "group_id": 14,
+        "rank": 1,
+        "is_member": 0
+    },
+    "52": {
+        "name": "Astro5 Max",
+        "group_id": 14,
+        "rank": 1,
+        "is_member": 0
+    },
+    "53": {
+        "name": "Astro40",
+        "group_id": 14,
+        "rank": 2,
+        "is_member": 1
+    },
+    "54": {
+        "name": "Ship Blast",
+        "group_id": 14,
+        "rank": 2,
+        "is_member": 1
+    },
+    "208": {
+        "name": "Cart Expert",
+        "group_id": 28,
+        "rank": 3,
+        "is_member": 0
+    },
+    "210": {
+        "name": "Cart Master",
+        "group_id": 28,
+        "rank": 4,
+        "is_member": 0
+    },
+    "206": {
+        "name": "Cart Pro",
+        "group_id": 28,
+        "rank": 2,
+        "is_member": 0
+    },
+    "224": {
+        "name": "Flip Mania",
+        "group_id": 28,
+        "rank": 3,
+        "is_member": 0
+    },
+    "212": {
+        "name": "Great Balance",
+        "group_id": 28,
+        "rank": 1,
+        "is_member": 0
+    },
+    "220": {
+        "name": "Mine Grind",
+        "group_id": 28,
+        "rank": 3,
+        "is_member": 0
+    },
+    "214": {
+        "name": "Mine Marvel",
+        "group_id": 28,
+        "rank": 2,
+        "is_member": 0
+    },
+    "216": {
+        "name": "Mine Mission",
+        "group_id": 28,
+        "rank": 2,
+        "is_member": 0
+    },
+    "228": {
+        "name": "Puffle Power",
+        "group_id": 28,
+        "rank": 2,
+        "is_member": 0
+    },
+    "222": {
+        "name": "Surf's Up",
+        "group_id": 28,
+        "rank": 3,
+        "is_member": 0
+    },
+    "218": {
+        "name": "Trick Master",
+        "group_id": 28,
+        "rank": 2,
+        "is_member": 0
+    },
+    "226": {
+        "name": "Ultimate Duo",
+        "group_id": 28,
+        "rank": 3,
+        "is_member": 0
+    },
+    "95": {
+        "name": "Easy Flip",
+        "group_id": 15,
+        "rank": 1,
+        "is_member": 0
+    },
+    "97": {
+        "name": "Easy Grind",
+        "group_id": 15,
+        "rank": 1,
+        "is_member": 0
+    },
+    "102": {
+        "name": "Easy Jump",
+        "group_id": 15,
+        "rank": 2,
+        "is_member": 0
+    },
+    "104": {
+        "name": "Easy Spin",
+        "group_id": 15,
+        "rank": 1,
+        "is_member": 0
+    },
+    "96": {
+        "name": "Easy Tube",
+        "group_id": 15,
+        "rank": 1,
+        "is_member": 0
+    },
+    "108": {
+        "name": "First Place",
+        "group_id": 15,
+        "rank": 3,
+        "is_member": 1
+    },
+    "93": {
+        "name": "First Trick",
+        "group_id": 15,
+        "rank": 1,
+        "is_member": 0
+    },
+    "101": {
+        "name": "Flip Star",
+        "group_id": 15,
+        "rank": 2,
+        "is_member": 0
+    },
+    "98": {
+        "name": "Graduate",
+        "group_id": 15,
+        "rank": 1,
+        "is_member": 0
+    },
+    "110": {
+        "name": "High Jump",
+        "group_id": 15,
+        "rank": 3,
+        "is_member": 1
+    },
+    "109": {
+        "name": "Max Flips",
+        "group_id": 15,
+        "rank": 3,
+        "is_member": 1
+    },
+    "107": {
+        "name": "Max Grind",
+        "group_id": 15,
+        "rank": 3,
+        "is_member": 1
+    },
+    "112": {
+        "name": "Max Spin",
+        "group_id": 15,
+        "rank": 3,
+        "is_member": 0
+    },
+    "111": {
+        "name": "Max Tube",
+        "group_id": 15,
+        "rank": 3,
+        "is_member": 0
+    },
+    "100": {
+        "name": "Podium Puffle",
+        "group_id": 15,
+        "rank": 2,
+        "is_member": 1
+    },
+    "94": {
+        "name": "Puffle Surfin'",
+        "group_id": 15,
+        "rank": 1,
+        "is_member": 0
+    },
+    "113": {
+        "name": "Shark!",
+        "group_id": 15,
+        "rank": 4,
+        "is_member": 1
+    },
+    "106": {
+        "name": "Super Grind",
+        "group_id": 15,
+        "rank": 2,
+        "is_member": 0
+    },
+    "105": {
+        "name": "Super Spin",
+        "group_id": 15,
+        "rank": 2,
+        "is_member": 0
+    },
+    "103": {
+        "name": "Super Tube",
+        "group_id": 15,
+        "rank": 2,
+        "is_member": 0
+    },
+    "114": {
+        "name": "Survivor",
+        "group_id": 15,
+        "rank": 4,
+        "is_member": 1
+    },
+    "99": {
+        "name": "Trick Star",
+        "group_id": 15,
+        "rank": 2,
+        "is_member": 0
+    },
+    "230": {
+        "name": "Grasshopper",
+        "group_id": 38,
+        "rank": 1,
+        "is_member": 0
+    },
+    "232": {
+        "name": "Fine Student ",
+        "group_id": 38,
+        "rank": 2,
+        "is_member": 0
+    },
+    "234": {
+        "name": "True Ninja ",
+        "group_id": 38,
+        "rank": 3,
+        "is_member": 0
+    },
+    "236": {
+        "name": "Ninja Master ",
+        "group_id": 38,
+        "rank": 3,
+        "is_member": 0
+    },
+    "238": {
+        "name": "Flawless Victory ",
+        "group_id": 38,
+        "rank": 2,
+        "is_member": 0
+    },
+    "240": {
+        "name": "Match Master",
+        "group_id": 38,
+        "rank": 3,
+        "is_member": 0
+    },
+    "242": {
+        "name": "Elemental Win",
+        "group_id": 38,
+        "rank": 1,
+        "is_member": 0
+    },
+    "244": {
+        "name": "One Element ",
+        "group_id": 38,
+        "rank": 2,
+        "is_member": 0
+    },
+    "246": {
+        "name": "Sensei Card",
+        "group_id": 38,
+        "rank": 4,
+        "is_member": 0
+    },
+    "248": {
+        "name": "Full Dojo",
+        "group_id": 38,
+        "rank": 4,
+        "is_member": 0
+    },
+    "252": {
+        "name": "Warm Up",
+        "group_id": 32,
+        "rank": 1,
+        "is_member": 0
+    },
+    "254": {
+        "name": "Score Fire ",
+        "group_id": 32,
+        "rank": 1,
+        "is_member": 0
+    },
+    "256": {
+        "name": "Fire Midway",
+        "group_id": 32,
+        "rank": 2,
+        "is_member": 0
+    },
+    "260": {
+        "name": "Strong Defense",
+        "group_id": 32,
+        "rank": 3,
+        "is_member": 0
+    },
+    "262": {
+        "name": "Fire Suit",
+        "group_id": 32,
+        "rank": 3,
+        "is_member": 0
+    },
+    "264": {
+        "name": "Fire Ninja",
+        "group_id": 32,
+        "rank": 3,
+        "is_member": 0
+    },
+    "266": {
+        "name": "Max Energy",
+        "group_id": 32,
+        "rank": 4,
+        "is_member": 0
+    },
+    "268": {
+        "name": "Fire Expert ",
+        "group_id": 32,
+        "rank": 4,
+        "is_member": 0
+    },
+    "390": {
+        "name": "Ace Angler",
+        "group_id": 52,
+        "rank": 4,
+        "is_member": 1
+    },
+    "382": {
+        "name": "Afishionado",
+        "group_id": 52,
+        "rank": 3,
+        "is_member": 0
+    },
+    "380": {
+        "name": "Crab Cuts",
+        "group_id": 52,
+        "rank": 3,
+        "is_member": 0
+    },
+    "376": {
+        "name": "Fishtastic",
+        "group_id": 52,
+        "rank": 2,
+        "is_member": 0
+    },
+    "388": {
+        "name": "Fly Fisher",
+        "group_id": 52,
+        "rank": 3,
+        "is_member": 0
+    },
+    "384": {
+        "name": "Gray Goodies",
+        "group_id": 52,
+        "rank": 3,
+        "is_member": 1
+    },
+    "386": {
+        "name": "Prize Mullet",
+        "group_id": 52,
+        "rank": 3,
+        "is_member": 0
+    },
+    "374": {
+        "name": "Shock King",
+        "group_id": 52,
+        "rank": 2,
+        "is_member": 0
+    },
+    "372": {
+        "name": "Snack Attack",
+        "group_id": 52,
+        "rank": 1,
+        "is_member": 0
+    },
+    "378": {
+        "name": "Worm Win",
+        "group_id": 52,
+        "rank": 3,
+        "is_member": 0
+    },
+    "49": {
+        "name": "1-up Captain",
+        "group_id": 11,
+        "rank": 3,
+        "is_member": 1
+    },
+    "45": {
+        "name": "1-up Leader",
+        "group_id": 11,
+        "rank": 2,
+        "is_member": 1
+    },
+    "50": {
+        "name": "Ace Pilot ",
+        "group_id": 11,
+        "rank": 4,
+        "is_member": 1
+    },
+    "40": {
+        "name": "Crash!",
+        "group_id": 11,
+        "rank": 2,
+        "is_member": 1
+    },
+    "47": {
+        "name": "Fuel Command",
+        "group_id": 11,
+        "rank": 3,
+        "is_member": 1
+    },
+    "38": {
+        "name": "Fuel Rank 1",
+        "group_id": 11,
+        "rank": 1,
+        "is_member": 0
+    },
+    "41": {
+        "name": "Fuel Rank 2",
+        "group_id": 11,
+        "rank": 2,
+        "is_member": 1
+    },
+    "42": {
+        "name": "Fuel Rank 3",
+        "group_id": 11,
+        "rank": 2,
+        "is_member": 1
+    },
+    "43": {
+        "name": "Fuel Rank 4",
+        "group_id": 11,
+        "rank": 2,
+        "is_member": 1
+    },
+    "44": {
+        "name": "Fuel Rank 5",
+        "group_id": 11,
+        "rank": 2,
+        "is_member": 1
+    },
+    "48": {
+        "name": "Fuel Wings",
+        "group_id": 11,
+        "rank": 3,
+        "is_member": 0
+    },
+    "39": {
+        "name": "Jet Pack 5",
+        "group_id": 11,
+        "rank": 2,
+        "is_member": 1
+    },
+    "46": {
+        "name": "Kerching!",
+        "group_id": 11,
+        "rank": 3,
+        "is_member": 1
+    },
+    "37": {
+        "name": "Lift Off!",
+        "group_id": 11,
+        "rank": 1,
+        "is_member": 0
+    },
+    "203": {
+        "name": "Puffle Bonus ",
+        "group_id": 11,
+        "rank": 2,
+        "is_member": 1
+    },
+    "205": {
+        "name": "Puffle Boost",
+        "group_id": 11,
+        "rank": 4,
+        "is_member": 0
+    },
+    "202": {
+        "name": "Puffle Pilot ",
+        "group_id": 11,
+        "rank": 1,
+        "is_member": 0
+    },
+    "204": {
+        "name": "Puffle Plus ",
+        "group_id": 11,
+        "rank": 3,
+        "is_member": 1
+    },
+    "404": {
+        "name": "Candy Land",
+        "group_id": 54,
+        "rank": 3,
+        "is_member": 0
+    },
+    "396": {
+        "name": "Chef's Hat",
+        "group_id": 54,
+        "rank": 2,
+        "is_member": 0
+    },
+    "400": {
+        "name": "Cocoa Beans",
+        "group_id": 54,
+        "rank": 2,
+        "is_member": 0
+    },
+    "410": {
+        "name": "Dessert Chef",
+        "group_id": 54,
+        "rank": 4,
+        "is_member": 0
+    },
+    "402": {
+        "name": "Fiery Squids",
+        "group_id": 54,
+        "rank": 3,
+        "is_member": 0
+    },
+    "392": {
+        "name": "Food Fiasco",
+        "group_id": 54,
+        "rank": 1,
+        "is_member": 0
+    },
+    "394": {
+        "name": "Just Dessert",
+        "group_id": 54,
+        "rank": 1,
+        "is_member": 0
+    },
+    "406": {
+        "name": "Pizza Chef",
+        "group_id": 54,
+        "rank": 3,
+        "is_member": 0
+    },
+    "408": {
+        "name": "Pizza Master",
+        "group_id": 54,
+        "rank": 4,
+        "is_member": 0
+    },
+    "398": {
+        "name": "Spice Sea",
+        "group_id": 54,
+        "rank": 2,
+        "is_member": 0
+    },
+    "132": {
+        "name": "1 Coin Bag",
+        "group_id": 19,
+        "rank": 1,
+        "is_member": 0
+    },
+    "155": {
+        "name": "1 Coin Bubble",
+        "group_id": 19,
+        "rank": 1,
+        "is_member": 1
+    },
+    "152": {
+        "name": "10 Sea Levels",
+        "group_id": 19,
+        "rank": 2,
+        "is_member": 1
+    },
+    "133": {
+        "name": "2 Coin Bags ",
+        "group_id": 19,
+        "rank": 2,
+        "is_member": 0
+    },
+    "156": {
+        "name": "2 Coin Bubbles",
+        "group_id": 19,
+        "rank": 2,
+        "is_member": 1
+    },
+    "153": {
+        "name": "20 Sea Levels",
+        "group_id": 19,
+        "rank": 3,
+        "is_member": 1
+    },
+    "134": {
+        "name": "3 Coin Bags",
+        "group_id": 19,
+        "rank": 3,
+        "is_member": 0
+    },
+    "157": {
+        "name": "3 Coin Bubbles",
+        "group_id": 19,
+        "rank": 3,
+        "is_member": 1
+    },
+    "154": {
+        "name": "30 Sea Levels",
+        "group_id": 19,
+        "rank": 4,
+        "is_member": 1
+    },
+    "138": {
+        "name": "Cave Coins",
+        "group_id": 19,
+        "rank": 2,
+        "is_member": 1
+    },
+    "140": {
+        "name": "Cave Coins Max",
+        "group_id": 19,
+        "rank": 3,
+        "is_member": 1
+    },
+    "139": {
+        "name": "Cave Coins Plus",
+        "group_id": 19,
+        "rank": 2,
+        "is_member": 1
+    },
+    "148": {
+        "name": "Close Call",
+        "group_id": 19,
+        "rank": 2,
+        "is_member": 1
+    },
+    "145": {
+        "name": "Easy Cannon",
+        "group_id": 19,
+        "rank": 2,
+        "is_member": 1
+    },
+    "144": {
+        "name": "Expert Catch",
+        "group_id": 19,
+        "rank": 3,
+        "is_member": 1
+    },
+    "150": {
+        "name": "Express Rescue",
+        "group_id": 19,
+        "rank": 2,
+        "is_member": 1
+    },
+    "147": {
+        "name": "Extreme Cannon",
+        "group_id": 19,
+        "rank": 4,
+        "is_member": 1
+    },
+    "151": {
+        "name": "Extreme Rescue",
+        "group_id": 19,
+        "rank": 3,
+        "is_member": 1
+    },
+    "141": {
+        "name": "Quick Catch",
+        "group_id": 19,
+        "rank": 1,
+        "is_member": 1
+    },
+    "149": {
+        "name": "Rapid Rescue",
+        "group_id": 19,
+        "rank": 1,
+        "is_member": 1
+    },
+    "130": {
+        "name": "SOS 30",
+        "group_id": 19,
+        "rank": 2,
+        "is_member": 0
+    },
+    "131": {
+        "name": "SOS 60",
+        "group_id": 19,
+        "rank": 3,
+        "is_member": 0
+    },
+    "137": {
+        "name": "Snow Hero",
+        "group_id": 19,
+        "rank": 4,
+        "is_member": 0
+    },
+    "136": {
+        "name": "Snow Master",
+        "group_id": 19,
+        "rank": 3,
+        "is_member": 0
+    },
+    "135": {
+        "name": "Snow Student",
+        "group_id": 19,
+        "rank": 2,
+        "is_member": 0
+    },
+    "146": {
+        "name": "Super Cannon",
+        "group_id": 19,
+        "rank": 3,
+        "is_member": 1
+    },
+    "142": {
+        "name": "Super Catch",
+        "group_id": 19,
+        "rank": 2,
+        "is_member": 1
+    },
+    "427": {
+        "name": "Bonus Snack",
+        "group_id": 57,
+        "rank": 1,
+        "is_member": 0
+    },
+    "428": {
+        "name": "Puffle O Feast",
+        "group_id": 57,
+        "rank": 2,
+        "is_member": 0
+    },
+    "429": {
+        "name": "Bite in Time",
+        "group_id": 57,
+        "rank": 2,
+        "is_member": 0
+    },
+    "430": {
+        "name": "Quick Snack",
+        "group_id": 57,
+        "rank": 3,
+        "is_member": 0
+    },
+    "431": {
+        "name": "Fast Food",
+        "group_id": 57,
+        "rank": 4,
+        "is_member": 0
+    },
+    "432": {
+        "name": "On a Roll",
+        "group_id": 57,
+        "rank": 1,
+        "is_member": 0
+    },
+    "433": {
+        "name": "Puzzle Pro",
+        "group_id": 57,
+        "rank": 1,
+        "is_member": 0
+    },
+    "434": {
+        "name": "Extreme Puzzler",
+        "group_id": 57,
+        "rank": 2,
+        "is_member": 1
+    },
+    "435": {
+        "name": "Master Roller",
+        "group_id": 57,
+        "rank": 2,
+        "is_member": 1
+    },
+    "436": {
+        "name": "Epic Roller",
+        "group_id": 57,
+        "rank": 3,
+        "is_member": 1
+    },
+    "437": {
+        "name": "Ice Master",
+        "group_id": 57,
+        "rank": 3,
+        "is_member": 1
+    },
+    "450": {
+        "name": "Fruit Squeeze",
+        "group_id": 58,
+        "rank": 1,
+        "is_member": 0
+    },
+    "451": {
+        "name": "Shipshake",
+        "group_id": 58,
+        "rank": 1,
+        "is_member": 0
+    },
+    "452": {
+        "name": "Berry Smart",
+        "group_id": 58,
+        "rank": 1,
+        "is_member": 0
+    },
+    "453": {
+        "name": "Beary Berry",
+        "group_id": 58,
+        "rank": 1,
+        "is_member": 0
+    },
+    "454": {
+        "name": "Tasty Treat",
+        "group_id": 58,
+        "rank": 2,
+        "is_member": 0
+    },
+    "455": {
+        "name": "Fruit Splatter",
+        "group_id": 58,
+        "rank": 2,
+        "is_member": 0
+    },
+    "456": {
+        "name": "Fruit Power",
+        "group_id": 58,
+        "rank": 2,
+        "is_member": 0
+    },
+    "457": {
+        "name": "Deflector",
+        "group_id": 58,
+        "rank": 2,
+        "is_member": 0
+    },
+    "458": {
+        "name": "Energizer",
+        "group_id": 58,
+        "rank": 3,
+        "is_member": 0
+    },
+    "459": {
+        "name": "Fruit Stomper",
+        "group_id": 58,
+        "rank": 3,
+        "is_member": 0
+    },
+    "460": {
+        "name": "Smoothie Warrior",
+        "group_id": 58,
+        "rank": 3,
+        "is_member": 0
+    },
+    "461": {
+        "name": "Smoothie Survivor ",
+        "group_id": 58,
+        "rank": 3,
+        "is_member": 0
+    },
+    "462": {
+        "name": "Smoothie Zing",
+        "group_id": 58,
+        "rank": 4,
+        "is_member": 0
+    },
+    "463": {
+        "name": "Fruit Smasher",
+        "group_id": 58,
+        "rank": 4,
+        "is_member": 0
+    },
+    "464": {
+        "name": "Smoothie Master",
+        "group_id": 58,
+        "rank": 4,
+        "is_member": 0
+    },
+    "465": {
+        "name": "Smoothie Hero",
+        "group_id": 58,
+        "rank": 4,
+        "is_member": 0
+    },
+    "63": {
+        "name": "1 Coin Bag",
+        "group_id": 16,
+        "rank": 1,
+        "is_member": 0
+    },
+    "67": {
+        "name": "10 Coin Bags",
+        "group_id": 16,
+        "rank": 3,
+        "is_member": 1
+    },
+    "64": {
+        "name": "3 Coin Bags",
+        "group_id": 16,
+        "rank": 2,
+        "is_member": 0
+    },
+    "65": {
+        "name": "6 Coin Bags",
+        "group_id": 16,
+        "rank": 2,
+        "is_member": 0
+    },
+    "70": {
+        "name": "All Coin Bags",
+        "group_id": 16,
+        "rank": 4,
+        "is_member": 1
+    },
+    "68": {
+        "name": "Ice Bonus",
+        "group_id": 16,
+        "rank": 3,
+        "is_member": 0
+    },
+    "71": {
+        "name": "Ice Master",
+        "group_id": 16,
+        "rank": 4,
+        "is_member": 1
+    },
+    "69": {
+        "name": "Ice Trekker",
+        "group_id": 16,
+        "rank": 3,
+        "is_member": 1
+    },
+    "66": {
+        "name": "Iced Treasure",
+        "group_id": 16,
+        "rank": 2,
+        "is_member": 1
+    },
+    "414": {
+        "name": "Gem Skills",
+        "group_id": 56,
+        "rank": 2,
+        "is_member": 0
+    },
+    "416": {
+        "name": "Collector",
+        "group_id": 56,
+        "rank": 2,
+        "is_member": 0
+    },
+    "418": {
+        "name": "In the Rough",
+        "group_id": 56,
+        "rank": 3,
+        "is_member": 0
+    },
+    "420": {
+        "name": "Gem Expert",
+        "group_id": 56,
+        "rank": 3,
+        "is_member": 0
+    },
+    "422": {
+        "name": "Gem Pro",
+        "group_id": 56,
+        "rank": 4,
+        "is_member": 0
+    },
+    "334": {
+        "name": "Begin Build",
+        "group_id": 48,
+        "rank": 1,
+        "is_member": 0
+    },
+    "336": {
+        "name": "Launch Ready",
+        "group_id": 48,
+        "rank": 2,
+        "is_member": 0
+    },
+    "338": {
+        "name": "Epic Cannon",
+        "group_id": 48,
+        "rank": 3,
+        "is_member": 1
+    },
+    "340": {
+        "name": "Crab Attack",
+        "group_id": 48,
+        "rank": 2,
+        "is_member": 0
+    },
+    "342": {
+        "name": "Crab Crash",
+        "group_id": 48,
+        "rank": 3,
+        "is_member": 1
+    },
+    "344": {
+        "name": "Crab Battle",
+        "group_id": 48,
+        "rank": 3,
+        "is_member": 1
+    },
+    "346": {
+        "name": "Quick Launch",
+        "group_id": 48,
+        "rank": 2,
+        "is_member": 1
+    },
+    "348": {
+        "name": "Supersonic Launch",
+        "group_id": 48,
+        "rank": 3,
+        "is_member": 1
+    },
+    "350": {
+        "name": "Light Speed Launch",
+        "group_id": 48,
+        "rank": 4,
+        "is_member": 1
+    },
+    "352": {
+        "name": "Turbo Time",
+        "group_id": 48,
+        "rank": 2,
+        "is_member": 1
+    },
+    "354": {
+        "name": "Turbo Battle",
+        "group_id": 48,
+        "rank": 3,
+        "is_member": 1
+    },
+    "356": {
+        "name": "Turbo Master",
+        "group_id": 48,
+        "rank": 4,
+        "is_member": 1
+    },
+    "714": {
+        "name": "Daily Waddl",
+        "group_id": 62,
+        "rank": 1,
+        "is_member": 0
+    },
+    "715": {
+        "name": "5 Day Streak",
+        "group_id": 62,
+        "rank": 2,
+        "is_member": 0
+    },
+    "716": {
+        "name": "10 Day Streak",
+        "group_id": 62,
+        "rank": 3,
+        "is_member": 0
+    },
+    "717": {
+        "name": "Waddl Master",
+        "group_id": 62,
+        "rank": 4,
+        "is_member": 0
+    },
+    "600": {
+        "name": "Golden Viking",
+        "group_id": 9,
+        "rank": 4,
+        "is_member": 0
+    },
+    "601": {
+        "name": "Golden Slippers",
+        "group_id": 9,
+        "rank": 4,
+        "is_member": 0
+    },
+    "602": {
+        "name": "Goldstache",
+        "group_id": 9,
+        "rank": 4,
+        "is_member": 0
+    },
+    "603": {
+        "name": "Gold Surfboard",
+        "group_id": 9,
+        "rank": 4,
+        "is_member": 0
+    }
+}

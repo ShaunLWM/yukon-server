@@ -98,6 +98,11 @@ CREATE TABLE `postcards` (
   `hasRead` tinyint(1) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='User postcards';
 
+CREATE TABLE `stamps` (
+  `userId` int(11) NOT NULL,
+  `stampId` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='User earned stamps';
+
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `username` varchar(12) NOT NULL,
@@ -183,6 +188,9 @@ ALTER TABLE `postcards`
   ADD KEY `userId` (`userId`),
   ADD KEY `senderId` (`senderId`);
 
+ALTER TABLE `stamps`
+  ADD PRIMARY KEY (`userId`,`stampId`) USING BTREE;
+
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `username` (`username`) USING BTREE;
@@ -247,6 +255,9 @@ ALTER TABLE `pets`
 ALTER TABLE `postcards`
   ADD CONSTRAINT `postcards_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `postcards_ibfk_2` FOREIGN KEY (`senderId`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `stamps`
+  ADD CONSTRAINT `stamps_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

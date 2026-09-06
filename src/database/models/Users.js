@@ -102,6 +102,16 @@ export default class Users extends BaseModel {
                     type: DataTypes.INTEGER(3),
                     allowNull: false,
                     defaultValue: 0
+                },
+                stampbookInfo: {
+                    type: DataTypes.JSON,
+                    allowNull: true,
+                    defaultValue: null
+                },
+                coverStamps: {
+                    type: DataTypes.JSON,
+                    allowNull: true,
+                    defaultValue: null
                 }
             },
             { sequelize, timestamps: false, tableName: 'users' }
@@ -154,6 +164,10 @@ export default class Users extends BaseModel {
         this.hasMany(db.pets, {
             foreignKey: 'userId',
             as: 'pets'
+        })
+        this.hasMany(db.stamps, {
+            foreignKey: 'userId',
+            as: 'stamps'
         })
     }
 
