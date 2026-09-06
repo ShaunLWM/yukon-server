@@ -22,7 +22,8 @@ export default class Pet extends GamePlugin {
             'pet_gum': this.petGum,
             'pet_cookie': this.petCookie,
             'pet_frame': this.petFrame,
-            'pet_start_walk': this.petStartWalk
+            'pet_start_walk': this.petStartWalk,
+            'pet_stop_walk': this.petStopWalk
         }
     }
 
@@ -124,6 +125,15 @@ export default class Pet extends GamePlugin {
         if (!hasProps(args, 'id') || !isNumber(args.id)) return
 
         user.startWalkingPet(args.id)
+    }
+
+    petStopWalk(args, user) {
+        if (!user.walkingPet) return
+
+        user.stopWalkingPet()
+        user.update({ hand: 0 })
+        user.hand = 0
+        user.sendUpdatePlayer('hand', 0)
     }
 
     sendInteraction(user, petId, action, updates) {

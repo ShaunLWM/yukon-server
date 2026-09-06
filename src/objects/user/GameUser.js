@@ -11,6 +11,7 @@ import IgnoreCollection from '@database/collections/IgnoreCollection'
 import InventoryCollection from '@database/collections/InventoryCollection'
 import PetCollection from '@database/collections/PetCollection'
 import PostcardCollection from '@database/collections/PostcardCollection'
+import StampCollection from '@database/collections/StampCollection'
 
 import PurchaseValidator from './purchase/PurchaseValidator'
 
@@ -157,7 +158,7 @@ export default class GameUser extends User {
         pet.walking = true
         this.walkingPet = pet
 
-        this.room.send(this, 'pet_start_walk', { userId: this.id, petId: pet.id }, [])
+        this.room.send(this, 'pet_start_walk', { userId: this.id, petId: pet.id, walkingPuffleType: pet.typeId }, [])
 
         // Remove current hand item
         await this.update({ hand: 0 })
@@ -167,14 +168,47 @@ export default class GameUser extends User {
 
         this.hand = petItemId
         this.sendUpdatePlayer('hand', petItemId)
+
+        this.startDigTimer()
     }
 
     stopWalkingPet() {
         if (this.walkingPet) {
+            this.stopDigTimer()
+
             this.room.send(this, 'pet_stop_walk', { userId: this.id, petId: this.walkingPet.id }, [])
 
             this.walkingPet.walking = false
             this.walkingPet = null
+        }
+    }
+
+    startDigTimer() {
+        this.stopDigTimer()
+
+        const delay = 30000 + Math.floor(Math.random() * 90000)
+
+        this.digTimer = setTimeout(() => {
+            if (!this.walkingPet || !this.room) return
+
+            const reward = 50 + Math.floor(Math.random() * 450)
+            this.updateCoins(reward)
+
+            this.send('puffle_dig', {
+                puffle: this.walkingPet.id,
+                reward: reward,
+                rewardType: 1,
+                coins: this.coins
+            })
+
+            this.startDigTimer()
+        }, delay)
+    }
+
+    stopDigTimer() {
+        if (this.digTimer) {
+            clearTimeout(this.digTimer)
+            this.digTimer = null
         }
     }
 
@@ -252,6 +286,12 @@ export default class GameUser extends User {
                         model: this.db.pets,
                         as: 'pets',
                         separate: true
+                    },
+                    {
+                        model: this.db.stamps,
+                        as: 'stamps',
+                        attributes: ['stampId'],
+                        separate: true
                     }
                 ]
             })
@@ -270,6 +310,7 @@ export default class GameUser extends User {
             this.cards = new CardCollection(this, user.cards)
             this.postcards = new PostcardCollection(this, user.postcards)
             this.pets = new PetCollection(this, user.pets)
+            this.stamps = new StampCollection(this, user.stamps)
 
             this.setPermissions()
 
@@ -283,7 +324,7 @@ export default class GameUser extends User {
     }
 
     toJSON() {
-        return pick(this,
+        const data = pick(this,
             'id',
             'username',
             'joinTime',
@@ -300,6 +341,13 @@ export default class GameUser extends User {
             'y',
             'frame'
         )
+
+        if (this.walkingPet) {
+            data.walking = this.walkingPet.id
+            data.walkingPuffleType = this.walkingPet.typeId
+        }
+
+        return data
     }
 
 }

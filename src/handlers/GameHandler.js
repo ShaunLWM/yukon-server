@@ -19,7 +19,8 @@ export default class GameHandler extends BaseHandler {
             igloos: data.igloos,
             furnitures: data.furnitures,
             floorings: data.floorings,
-            cards: data.cards
+            cards: data.cards,
+            stamps: data.stamps
         }
 
         this.usersById = {}
@@ -110,6 +111,10 @@ export default class GameHandler extends BaseHandler {
 
             if (user.pets) {
                 user.pets.stopPetUpdate()
+            }
+
+            if (user.stopDigTimer) {
+                user.stopDigTimer()
             }
 
             this.closeAndUpdatePopulation(user)
