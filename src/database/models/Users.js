@@ -93,6 +93,11 @@ export default class Users extends BaseModel {
                     allowNull: false,
                     defaultValue: 0
                 },
+                transform: {
+                    type: DataTypes.INTEGER(11),
+                    allowNull: false,
+                    defaultValue: 0
+                },
                 ninjaRank: {
                     type: DataTypes.INTEGER(1),
                     allowNull: false,

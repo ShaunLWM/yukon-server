@@ -19,7 +19,7 @@ export default class Database {
         )
 
         // Used to translate type id to string
-        this.slots = [ 'color', 'head', 'face', 'neck', 'body', 'hand', 'feet', 'flag', 'photo', 'award' ]
+        this.slots = [ 'color', 'head', 'face', 'neck', 'body', 'hand', 'feet', 'flag', 'photo', 'award', 'transforms' ]
 
         this.dir = `${__dirname}/models`
 

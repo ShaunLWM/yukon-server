@@ -339,7 +339,8 @@ export default class GameUser extends User {
             'flag',
             'x',
             'y',
-            'frame'
+            'frame',
+            'transform'
         )
 
         if (this.walkingPet) {

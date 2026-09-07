@@ -26,7 +26,7 @@ export default class Item extends GamePlugin {
 
         const item = this.items[args.item]
 
-        if (!item || item.type === 10 || !user.inventory.includes(args.item)) {
+        if (!item || item.type >= 10 || !user.inventory.includes(args.item)) {
             return
         }
 
