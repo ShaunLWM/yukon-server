@@ -17,9 +17,6 @@ export default class Transform extends GamePlugin {
     transformPlayer(args, user) {
         if (!isNumber(args.transform)) return
 
-        const transformCrumb = this.crumbs.transformations[args.transform]
-        if (!transformCrumb) return
-
         const ownsItem = Object.entries(this.crumbs.items).some(([itemId, item]) =>
             item.type === 11 && item.transform === args.transform && user.inventory.includes(Number(itemId))
         )
