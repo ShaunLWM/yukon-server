@@ -1,0 +1,20 @@
+[
+    {
+        "code": "FREEITEM",
+        "items": [413],
+        "coins": 500,
+        "expiry": 0
+    },
+    {
+        "code": "ADVENTURE",
+        "items": [4809, 1560],
+        "coins": 0,
+        "expiry": 0
+    },
+    {
+        "code": "TREASUREBOOK",
+        "items": [3159, 6158],
+        "coins": 1000,
+        "expiry": 0
+    }
+]
