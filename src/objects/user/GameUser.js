@@ -13,6 +13,7 @@ import InventoryCollection from '@database/collections/InventoryCollection'
 import PetCollection from '@database/collections/PetCollection'
 import PostcardCollection from '@database/collections/PostcardCollection'
 import FavoriteItemCollection from '@database/collections/FavoriteItemCollection'
+import InteractionCollection from '@database/collections/InteractionCollection'
 import StampCollection from '@database/collections/StampCollection'
 
 import PurchaseValidator from './purchase/PurchaseValidator'
@@ -307,6 +308,12 @@ export default class GameUser extends User {
                         model: this.db.favoriteItems,
                         as: 'favoriteItems',
                         separate: true
+                    },
+                    {
+                        model: this.db.interactions,
+                        as: 'interactions',
+                        attributes: ['interaction'],
+                        separate: true
                     }
                 ]
             })
@@ -328,6 +335,7 @@ export default class GameUser extends User {
             this.pets = new PetCollection(this, user.pets)
             this.stamps = new StampCollection(this, user.stamps)
             this.favoriteItems = new FavoriteItemCollection(this, user.favoriteItems)
+            this.interactions = new InteractionCollection(this, user.interactions)
 
             this.setPermissions()
 

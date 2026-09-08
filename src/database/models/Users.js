@@ -182,6 +182,10 @@ export default class Users extends BaseModel {
             foreignKey: 'userId',
             as: 'favoriteItems'
         })
+        this.hasMany(db.interactions, {
+            foreignKey: 'userId',
+            as: 'interactions'
+        })
     }
 
     get anonymous() {

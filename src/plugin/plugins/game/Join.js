@@ -35,7 +35,8 @@ export default class Join extends GamePlugin {
             stamps: user.stamps,
             stampbookInfo: user.stampbookInfo,
             coverStamps: user.coverStamps,
-            favoriteItems: user.favoriteItems
+            favoriteItems: user.favoriteItems,
+            interactions: user.interactions
         })
 
         // Update token on database now that user has fully connected
