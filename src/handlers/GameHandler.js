@@ -20,7 +20,8 @@ export default class GameHandler extends BaseHandler {
             furnitures: data.furnitures,
             floorings: data.floorings,
             cards: data.cards,
-            stamps: data.stamps
+            stamps: data.stamps,
+            postcards: data.postcards
         }
 
         this.usersById = {}

@@ -13,7 +13,8 @@ export default class Buddy extends GamePlugin {
             'buddy_accept': this.buddyAccept,
             'buddy_reject': this.buddyReject,
             'buddy_remove': this.buddyRemove,
-            'buddy_find': this.buddyFind
+            'buddy_find': this.buddyFind,
+            'buddy_request_seen': this.buddyRequestSeen
         }
     }
 
@@ -40,7 +41,7 @@ export default class Buddy extends GamePlugin {
             return
         }
 
-        recipient.buddyRequests.push(user.id)
+        recipient.buddyRequests.add(user.id)
         recipient.send('buddy_request', { id: user.id, username: user.username })
     }
 
@@ -75,7 +76,27 @@ export default class Buddy extends GamePlugin {
     }
 
     buddyReject(args, user) {
-        user.buddyRequests = user.buddyRequests.filter(item => item != args.id)
+        if (!hasProps(args, 'id')) {
+            return
+        }
+
+        user.buddyRequests.remove(args.id)
+        user.send('buddy_reject', { id: args.id })
+    }
+
+    buddyRequestSeen(args, user) {
+        if (!hasProps(args, 'id')) {
+            return
+        }
+
+        if (!user.buddyRequests.includes(args.id)) {
+            return
+        }
+
+        this.db.buddyRequests.update(
+            { seen: 1 },
+            { where: { senderId: args.id, recipientId: user.id } }
+        )
     }
 
     buddyRemove(args, user) {

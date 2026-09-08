@@ -139,6 +139,10 @@ export default class Users extends BaseModel {
         this.belongsTo(db.buddies, {
             foreignKey: 'id'
         })
+        this.hasMany(db.buddyRequests, {
+            foreignKey: 'recipientId',
+            as: 'buddyRequests'
+        })
         this.hasMany(db.ignores, {
             foreignKey: 'userId',
             as: 'ignores'
@@ -173,6 +177,10 @@ export default class Users extends BaseModel {
         this.hasMany(db.stamps, {
             foreignKey: 'userId',
             as: 'stamps'
+        })
+        this.hasMany(db.favoriteItems, {
+            foreignKey: 'userId',
+            as: 'favoriteItems'
         })
     }
 

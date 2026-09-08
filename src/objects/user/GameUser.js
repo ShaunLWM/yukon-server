@@ -4,6 +4,7 @@ import pick from '@utils/pick'
 import { isInRange } from '@utils/validation'
 
 import BuddyCollection from '@database/collections/BuddyCollection'
+import BuddyRequestCollection from '@database/collections/BuddyRequestCollection'
 import CardCollection from '@database/collections/CardCollection'
 import FurnitureCollection from '@database/collections/FurnitureCollection'
 import IglooCollection from '@database/collections/IglooCollection'
@@ -11,6 +12,7 @@ import IgnoreCollection from '@database/collections/IgnoreCollection'
 import InventoryCollection from '@database/collections/InventoryCollection'
 import PetCollection from '@database/collections/PetCollection'
 import PostcardCollection from '@database/collections/PostcardCollection'
+import FavoriteItemCollection from '@database/collections/FavoriteItemCollection'
 import StampCollection from '@database/collections/StampCollection'
 
 import PurchaseValidator from './purchase/PurchaseValidator'
@@ -38,8 +40,6 @@ export default class GameUser extends User {
         this.x
         this.y
         this.frame
-
-        this.buddyRequests = []
 
         this.walkingPet = null
 
@@ -122,7 +122,7 @@ export default class GameUser extends User {
     }
 
     clearBuddyRequest(id) {
-        this.buddyRequests = this.buddyRequests.filter(request => request != id)
+        this.buddyRequests.remove(id)
     }
 
     updateCoins(coins, gameOver = false) {
@@ -241,6 +241,16 @@ export default class GameUser extends User {
                         separate: true
                     },
                     {
+                        model: this.db.buddyRequests,
+                        as: 'buddyRequests',
+                        include: {
+                            model: this.db.users,
+                            as: 'user',
+                            attributes: ['username']
+                        },
+                        separate: true
+                    },
+                    {
                         model: this.db.ignores,
                         as: 'ignores',
                         include: {
@@ -292,6 +302,11 @@ export default class GameUser extends User {
                         as: 'stamps',
                         attributes: ['stampId'],
                         separate: true
+                    },
+                    {
+                        model: this.db.favoriteItems,
+                        as: 'favoriteItems',
+                        separate: true
                     }
                 ]
             })
@@ -303,6 +318,7 @@ export default class GameUser extends User {
             Object.assign(this, user.get({ plain: true }))
 
             this.buddies = new BuddyCollection(this, user.buddies)
+            this.buddyRequests = new BuddyRequestCollection(this, user.buddyRequests)
             this.ignores = new IgnoreCollection(this, user.ignores)
             this.inventory = new InventoryCollection(this, user.inventory)
             this.igloos = new IglooCollection(this, user.igloos)
@@ -311,6 +327,7 @@ export default class GameUser extends User {
             this.postcards = new PostcardCollection(this, user.postcards)
             this.pets = new PetCollection(this, user.pets)
             this.stamps = new StampCollection(this, user.stamps)
+            this.favoriteItems = new FavoriteItemCollection(this, user.favoriteItems)
 
             this.setPermissions()
 

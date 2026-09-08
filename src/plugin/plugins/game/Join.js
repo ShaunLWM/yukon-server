@@ -25,6 +25,7 @@ export default class Join extends GamePlugin {
             rank: user.rank,
             coins: user.coins,
             buddies: user.buddies,
+            buddyRequests: user.buddyRequests,
             ignores: user.ignores,
             inventory: user.inventory,
             igloos: user.igloos,
@@ -33,7 +34,8 @@ export default class Join extends GamePlugin {
             pets: user.pets,
             stamps: user.stamps,
             stampbookInfo: user.stampbookInfo,
-            coverStamps: user.coverStamps
+            coverStamps: user.coverStamps,
+            favoriteItems: user.favoriteItems
         })
 
         // Update token on database now that user has fully connected
