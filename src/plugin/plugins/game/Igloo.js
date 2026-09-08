@@ -21,7 +21,10 @@ export default class Igloo extends GamePlugin {
             'close_igloo': this.closeIgloo,
 
             'get_igloos': this.getIgloos,
-            'get_igloo_open': this.getIglooOpen
+            'get_igloo_open': this.getIglooOpen,
+
+            'like_igloo': this.likeIgloo,
+            'get_igloo_likes': this.getIglooLikes
         }
     }
 
@@ -177,6 +180,40 @@ export default class Igloo extends GamePlugin {
         let open = this.openIgloos.includes(args.igloo)
 
         user.send('get_igloo_open', { open: open })
+    }
+
+    async likeIgloo(args, user) {
+        if (!user.room?.isIgloo) return
+
+        let iglooUserId = user.room.userId
+        if (iglooUserId === user.id) return
+
+        let existing = await this.db.iglooLikes.findOne({
+            where: { userId: user.id, iglooUserId: iglooUserId }
+        })
+
+        if (existing) return
+
+        await this.db.iglooLikes.create({ userId: user.id, iglooUserId: iglooUserId })
+
+        let count = await this.db.iglooLikes.count({ where: { iglooUserId: iglooUserId } })
+
+        user.send('igloo_liked', {})
+        user.room.send(user, 'get_igloo_likes', { likes: count }, [])
+    }
+
+    async getIglooLikes(args, user) {
+        if (!user.room?.isIgloo) return
+
+        let iglooUserId = user.room.userId
+
+        let count = await this.db.iglooLikes.count({ where: { iglooUserId: iglooUserId } })
+
+        let liked = await this.db.iglooLikes.findOne({
+            where: { userId: user.id, iglooUserId: iglooUserId }
+        })
+
+        user.send('get_igloo_likes', { likes: count, liked: !!liked })
     }
 
     // Functions

@@ -568,6 +568,14 @@
         "spawn": 0
     },
     {
+        "id": 910,
+        "name": "pizzatron",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
         "id": 911,
         "name": "mission3",
         "member": 0,
@@ -616,6 +624,30 @@
         "spawn": 0
     },
     {
+        "id": 917,
+        "name": "book1",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 918,
+        "name": "book2",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 919,
+        "name": "book3",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
         "id": 920,
         "name": "mission7",
         "member": 0,
@@ -648,6 +680,22 @@
         "spawn": 0
     },
     {
+        "id": 924,
+        "name": "pufflesoaker",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 925,
+        "name": "ringthebell",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
         "id": 927,
         "name": "mission11",
         "member": 0,
@@ -656,8 +704,184 @@
         "spawn": 0
     },
     {
+        "id": 928,
+        "name": "spinthewheel",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 929,
+        "name": "balloonpop",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 930,
+        "name": "dj3k",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 931,
+        "name": "quests_q1",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 932,
+        "name": "quests_q2",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 933,
+        "name": "quests_q3",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 934,
+        "name": "quests_q4",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 935,
+        "name": "quests_q5",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 936,
+        "name": "quests_q6",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 937,
+        "name": "quests_q7",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 938,
+        "name": "quests_q8",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 939,
+        "name": "quests_q9",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 940,
+        "name": "quests_q10",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 941,
+        "name": "quests_q11",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 942,
+        "name": "fluffy_",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 943,
+        "name": "pizzaoven",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 945,
+        "name": "thinastro",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
         "id": 951,
         "name": "sensei",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 952,
+        "name": "dancing",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 953,
+        "name": "pufflelaunch",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 957,
+        "name": "pufflescape",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 958,
+        "name": "scornbattle",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
+        "spawn": 0
+    },
+    {
+        "id": 959,
+        "name": "smoothie",
         "member": 0,
         "maxUsers": 80,
         "game": 1,
@@ -685,6 +909,14 @@
         "member": 0,
         "maxUsers": 80,
         "game": 0,
+        "spawn": 0
+    },
+    {
+        "id": 1002,
+        "name": "puzzle",
+        "member": 0,
+        "maxUsers": 80,
+        "game": 1,
         "spawn": 0
     },
     {
