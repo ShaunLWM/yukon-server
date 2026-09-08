@@ -22,7 +22,8 @@ export default class Chat extends GamePlugin {
             'ac': this.addCoins,
             'jr': this.joinRoom,
             'id': this.id,
-            'users': this.userPopulation
+            'users': this.userPopulation,
+            'announce': this.announce
         }
 
         this.bindCommands()
@@ -181,6 +182,17 @@ export default class Chat extends GamePlugin {
 
     userPopulation(args, user) {
         user.send('error', { error: `Users online: ${this.handler.population}` })
+    }
+
+    announce(args, user) {
+        if (!user.isModerator) return
+
+        let message = args.join(' ')
+        if (!message) return
+
+        for (let u of this.handler.joined) {
+            u.send('broadcast', { message: message, mode: 'devalert' })
+        }
     }
 
 }
