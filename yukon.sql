@@ -26,7 +26,8 @@ CREATE TABLE `bans` (
 
 CREATE TABLE `buddies` (
   `userId` int(11) NOT NULL,
-  `buddyId` int(11) NOT NULL
+  `buddyId` int(11) NOT NULL,
+  `favorite` tinyint(1) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='User buddies';
 
 CREATE TABLE `cards` (
@@ -43,7 +44,8 @@ CREATE TABLE `furnitures` (
   `x` smallint(6) NOT NULL DEFAULT 0,
   `y` smallint(6) NOT NULL DEFAULT 0,
   `rotation` smallint(6) NOT NULL DEFAULT 1,
-  `frame` smallint(6) NOT NULL DEFAULT 1
+  `frame` smallint(6) NOT NULL DEFAULT 1,
+  `depth` smallint(6) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='Furniture placed inside igloos';
 
 CREATE TABLE `furniture_inventories` (
