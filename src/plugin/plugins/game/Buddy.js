@@ -14,7 +14,9 @@ export default class Buddy extends GamePlugin {
             'buddy_reject': this.buddyReject,
             'buddy_remove': this.buddyRemove,
             'buddy_find': this.buddyFind,
-            'buddy_request_seen': this.buddyRequestSeen
+            'buddy_request_seen': this.buddyRequestSeen,
+            'buddy_favorite': this.buddyFavorite,
+            'buddy_search': this.buddySearch
         }
     }
 
@@ -135,6 +137,39 @@ export default class Buddy extends GamePlugin {
         }
 
         user.send('buddy_find', result)
+    }
+
+    buddyFavorite(args, user) {
+        if (!hasProps(args, 'id')) return
+        if (!user.buddies.includes(args.id)) return
+
+        let buddy = user.buddies.get(args.id)
+        let favorite = !buddy.favorite
+
+        user.buddies.setFavorite(args.id, favorite)
+        user.send('buddy_favorite', { id: args.id, favorite: favorite })
+    }
+
+    async buddySearch(args, user) {
+        if (!args.search || typeof args.search !== 'string') return
+
+        let search = args.search.trim()
+        if (search.length < 3 || search.length > 12) return
+
+        let result = await this.db.users.findOne({
+            where: { username: search },
+            attributes: ['id', 'username']
+        })
+
+        if (!result) {
+            user.send('buddy_search', { penguin: null })
+            return
+        }
+
+        let isBuddy = user.buddies.includes(result.id)
+        user.send('buddy_search', {
+            penguin: { id: result.id, username: result.username, isBuddy: isBuddy }
+        })
     }
 
 }

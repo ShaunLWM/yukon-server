@@ -33,14 +33,23 @@ export default class BuddyCollection extends Collection {
         }
     }
 
+    setFavorite(id, favorite) {
+        let buddy = this.collection[id]
+        if (buddy) {
+            buddy.favorite = favorite ? 1 : 0
+            buddy.save()
+        }
+    }
+
     toJSON() {
         let buddies = []
 
         for (let buddy in this.collection) {
             let online = this.isOnline(buddy)
             let username = this.collection[buddy].user.username
+            let favorite = !!this.collection[buddy].favorite
 
-            buddies.push({ id: parseInt(buddy), username: username, online: online })
+            buddies.push({ id: parseInt(buddy), username: username, online: online, favorite: favorite })
 
             if (online) {
                 this.sendOnline(buddy)

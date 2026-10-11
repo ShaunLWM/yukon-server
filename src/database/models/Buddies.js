@@ -15,6 +15,11 @@ export default class Buddies extends BaseModel {
                     type: DataTypes.INTEGER(11),
                     allowNull: false,
                     primaryKey: true
+                },
+                favorite: {
+                    type: DataTypes.TINYINT(1),
+                    allowNull: false,
+                    defaultValue: 0
                 }
             },
             { sequelize, timestamps: false, tableName: 'buddies' }
