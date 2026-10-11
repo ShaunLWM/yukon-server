@@ -35,6 +35,11 @@ export default class Furnitures extends BaseModel {
                 frame: {
                     type: DataTypes.INTEGER(6),
                     allowNull: false
+                },
+                depth: {
+                    type: DataTypes.INTEGER(6),
+                    allowNull: false,
+                    defaultValue: 0
                 }
             },
             { sequelize, timestamps: false, tableName: 'furnitures' }

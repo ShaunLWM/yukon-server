@@ -112,6 +112,7 @@ export default class Igloo extends GamePlugin {
                 y: parseInt(item.y) || 0,
                 rotation: parseInt(item.rotation) || 0,
                 frame: parseInt(item.frame) || 1,
+                depth: parseInt(item.depth) || 0,
                 userId: user.id
             })
         }
